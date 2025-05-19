@@ -1,0 +1,116 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Tech Conference 2025",
+      "description": "Annual conference about the latest in technology.",
+      "scheduledAt": "2025-09-15T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Music Festival",
+      "description": "A weekend full of live music and fun.",
+      "scheduledAt": "2025-10-20T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Health & Wellness Expo",
+      "description": "Explore the latest trends in health and wellness.",
+      "scheduledAt": "2025-11-05T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Art & Culture Fair",
+      "description": "Celebrating art, culture and creativity.",
+      "scheduledAt": "2025-12-01T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Startup Pitch Night",
+      "description": "Innovators pitch their ideas to investors.",
+      "scheduledAt": "2025-11-15T18:00:00Z"
+    }
+  ],
+  "attendees": [
+    {
+      "id": 101,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "eventId": 1,
+      "ticketIdentifier": "TC2025-001",
+      "checkedInAt": "2025-09-15T08:45:00Z"
+    },
+    {
+      "id": 102,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "eventId": 1,
+      "ticketIdentifier": "TC2025-002",
+      "checkedInAt": "2025-05-19T13:13:43.226Z"
+    },
+    {
+      "id": 103,
+      "firstName": "Charlie",
+      "lastName": "Davis",
+      "eventId": 2,
+      "ticketIdentifier": "MF2025-001",
+      "checkedInAt": "2025-10-20T14:30:00Z"
+    },
+    {
+      "id": 104,
+      "firstName": "Diana",
+      "lastName": "Miller",
+      "eventId": 2,
+      "ticketIdentifier": "MF2025-002",
+      "checkedInAt": null
+    },
+    {
+      "id": 105,
+      "firstName": "Ethan",
+      "lastName": "Williams",
+      "eventId": 3,
+      "ticketIdentifier": "HW2025-001",
+      "checkedInAt": "2025-11-05T09:45:00Z"
+    },
+    {
+      "id": 106,
+      "firstName": "Fiona",
+      "lastName": "Brown",
+      "eventId": 3,
+      "ticketIdentifier": "HW2025-002",
+      "checkedInAt": null
+    },
+    {
+      "id": 107,
+      "firstName": "George",
+      "lastName": "Martinez",
+      "eventId": 4,
+      "ticketIdentifier": "AC2025-001",
+      "checkedInAt": null
+    },
+    {
+      "id": 108,
+      "firstName": "Hannah",
+      "lastName": "Garcia",
+      "eventId": 4,
+      "ticketIdentifier": "AC2025-002",
+      "checkedInAt": "2025-12-01T10:30:00Z"
+    },
+    {
+      "id": 109,
+      "firstName": "Ian",
+      "lastName": "Rodriguez",
+      "eventId": 5,
+      "ticketIdentifier": "SPN2025-001",
+      "checkedInAt": null
+    },
+    {
+      "id": 110,
+      "firstName": "Julia",
+      "lastName": "Lopez",
+      "eventId": 5,
+      "ticketIdentifier": "SPN2025-002",
+      "checkedInAt": "2025-11-15T17:50:00Z"
+    }
+  ]
+}
