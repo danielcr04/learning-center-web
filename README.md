@@ -1,5 +1,39 @@
-# Vue 3 + Vite
+//instalar dependencias
+npm install axios primevue primeflex primeicons  vue-router@4 json-server vue-i18n pinia
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+//Crear los environments
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+//Crear locales(es.json y en.json)
+//Agregar archivo i18n.js
+
+//Agregar archivo router/index.js
+
+//Agregar el style.css
+
+//Crear carpeta Shared
+components()
+services(http.instance)
+
+//Crear la carpeta public (quitar el ".componente" del name)
+components(footer,language,tolbar)
+pages(Home, not found)
+
+//Registration
+model(events, attendee)
+services(event.service y attendee.service)
+components()
+
+
+//Agregar carpeta server
+
+
+
+
+
+
+
+
+
+
+
+
