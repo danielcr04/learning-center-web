@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-  <pv-card class="event-card w-full" style="min-height: 150px;">
+  <pv-card class="event-card w-full h-full">
     <template #header>
       <div class="card-header">
         <h3>{{ event.name }}</h3>

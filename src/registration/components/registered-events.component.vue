@@ -49,8 +49,12 @@ export default {
 
     <div v-if="error" class="error">{{ error }}</div>
 
-    <div v-if="events.length && attendees.length" class="p-grid p-g-3">
-      <div v-for="event in events" :key="event.id" class="p-col-12 p-md-6">
+    <div v-if="events.length && attendees.length" class="grid p-grid">
+      <div
+          v-for="event in events"
+          :key="event.id"
+          class="col-12 md:col-6 lg:col-4"
+      >
         <event-summary :event="event" :attendees="attendees" />
       </div>
     </div>
